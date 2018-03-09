@@ -1,7 +1,22 @@
 # prototype
 a sample xcode project showing an issue with passed parameters and branch.io.  
 
-In this example, when clicking this link on an iOS 10.3 device from a mobile browser (safari, for example)
+HTML of page that is interacted with on mobile browser
+```
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<span>EXAMPLE A:  Prototype branch.io With Params That Don't Work:</span>
+<span><a href="https://ame9.app.link/ZaQRk2DB8K?username=redshedt&password=Shedred6!&officecode=redshed">Open App</a></span>
+</br>
+<span>EXAMPLE B:Prototype branch.io With Params That Work:</span>
+<span><a href="https://ame9.app.link/ZaQRk2DB8K?param1=my_name&param2=my_pw&param3=my_code">Open App</a></span>
+</br>
+</body>
+</html>
+```
+
+Note that in the code above, the only difference between the link in example A and the link in example B is the name of the parameters.  In this example, when clicking this link (example a, above) on an iOS 10.3 device from a mobile browser (safari, for example)
 ```
 https://ame9.app.link/ZaQRk2DB8K?username=redshedt&password=Shedred6!&officecode=redshed
 ```
@@ -61,7 +76,7 @@ JSON: {"sdk":"ios0.22.5","facebook_app_link_checked":false,"language":"en","user
     "+is_first_session" = 0;
 }
 ```
-However, if you click this link a mobile browser
+However, if you click this link (example b, above) in a mobile browser
 ```
 https://ame9.app.link/ZaQRk2DB8K?param1=my_name&param2=my_pw&param3=my_code
 ```
