@@ -16,7 +16,7 @@ HTML of page that is interacted with on mobile browser
 </html>
 ```
 
-Note that in the code above, the only difference between the link in example A and the link in example B is the name of the parameters.  In this example, when clicking this link (example a, above) on an iOS 10.3 device from a mobile browser (safari, for example)
+In this example, when clicking this link (example a, above) on an iOS 10.3 device from a mobile browser (safari, for example)
 ```
 https://ame9.app.link/ZaQRk2DB8K?username=redshedt&password=Shedred6!&officecode=redshed
 ```
